@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.uhope.uip.mybatis.mapper.SmUserMapper">
+  <resultMap id="BaseResultMap" type="com.uhope.uip.mybatis.domain.SmUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="region_id" jdbcType="BIGINT" property="regionId" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+    <result column="creator_id" jdbcType="VARCHAR" property="creatorId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="modifier_id" jdbcType="VARCHAR" property="modifierId" />
+    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+    <result column="EFFECTTIME" jdbcType="TIMESTAMP" property="effecttime" />
+    <result column="SORT_ORDER" jdbcType="DOUBLE" property="sortOrder" />
+    <result column="USERTYPE" jdbcType="INTEGER" property="usertype" />
+  </resultMap>
+</mapper>

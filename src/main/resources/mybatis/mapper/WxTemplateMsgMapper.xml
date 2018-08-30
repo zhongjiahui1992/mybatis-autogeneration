@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.uhope.uip.mybatis.mapper.WxTemplateMsgMapper">
+  <resultMap id="BaseResultMap" type="com.uhope.uip.mybatis.domain.WxTemplateMsg">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="APPID" jdbcType="VARCHAR" property="appid" />
+    <result column="templateid" jdbcType="VARCHAR" property="templateid" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="primaryindustry" jdbcType="VARCHAR" property="primaryindustry" />
+    <result column="deputyindustry" jdbcType="VARCHAR" property="deputyindustry" />
+    <result column="temptype" jdbcType="VARCHAR" property="temptype" />
+    <result column="isevent" jdbcType="INTEGER" property="isevent" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>

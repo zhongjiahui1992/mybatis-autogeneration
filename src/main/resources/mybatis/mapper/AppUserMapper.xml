@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.uhope.uip.mybatis.mapper.AppUserMapper">
+  <resultMap id="BaseResultMap" type="com.uhope.uip.mybatis.domain.AppUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="RECVER" jdbcType="DECIMAL" property="recver" />
+    <result column="PLATFORMID" jdbcType="VARCHAR" property="platformid" />
+    <result column="PHONE" jdbcType="VARCHAR" property="phone" />
+    <result column="ACCOUNT" jdbcType="VARCHAR" property="account" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="USERNAME" jdbcType="VARCHAR" property="username" />
+    <result column="NICKNAME" jdbcType="VARCHAR" property="nickname" />
+    <result column="ADDRESS" jdbcType="VARCHAR" property="address" />
+    <result column="UNITS" jdbcType="VARCHAR" property="units" />
+    <result column="UNIONID" jdbcType="VARCHAR" property="unionid" />
+    <result column="HEADPORTRAIT" jdbcType="VARCHAR" property="headportrait" />
+    <result column="OPENID" jdbcType="VARCHAR" property="openid" />
+    <result column="USERTYPE" jdbcType="TINYINT" property="usertype" />
+    <result column="REGISTERDATE" jdbcType="TIMESTAMP" property="registerdate" />
+    <result column="LASTLOGINDATE" jdbcType="TIMESTAMP" property="lastlogindate" />
+    <result column="GENDER" jdbcType="TINYINT" property="gender" />
+    <result column="BIRTHDAY" jdbcType="VARCHAR" property="birthday" />
+    <result column="PROVINCEID" jdbcType="VARCHAR" property="provinceid" />
+    <result column="CITYID" jdbcType="VARCHAR" property="cityid" />
+    <result column="COUNTYID" jdbcType="VARCHAR" property="countyid" />
+    <result column="TOWNID" jdbcType="VARCHAR" property="townid" />
+    <result column="VILLAGEID" jdbcType="VARCHAR" property="villageid" />
+    <result column="STATUS" jdbcType="TINYINT" property="status" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+</mapper>
